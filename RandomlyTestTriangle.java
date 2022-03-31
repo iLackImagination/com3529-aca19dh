@@ -6,8 +6,6 @@ import subjects.Triangle.Type;
 import mcdc.RestrictedMCDC;
 import mcdc.CorrelatedMCDC;
 import java.util.Random;
-import java.util.Set;
-import java.util.TreeSet;
 import java.io.FileWriter;
 import java.io.File;
 import java.io.BufferedWriter;

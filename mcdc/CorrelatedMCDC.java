@@ -98,6 +98,10 @@ public class CorrelatedMCDC {
         return true;
     }
 
+    public int requirementLength(){
+        return requirements.length;
+    }
+
     public boolean[][] testRequirements() {
         String mainLogicOp = parsed[0][0];
         boolean value = true;
@@ -143,7 +147,8 @@ public class CorrelatedMCDC {
                 trimmed_req[row][col] = requirements[row][col];
             }
         }
-        return trimmed_req;
+        requirements = trimmed_req;
+        return requirements;
     }
 
 }
