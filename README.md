@@ -18,3 +18,7 @@
 3. Comment out the other MCDC 
 4. Recompile the class 
 5. Run the class
+
+## Note on video
+
+I don't have a microphone, so the video is silent.
