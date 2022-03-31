@@ -27,8 +27,8 @@ public class RandomlyTestBMI {
         imaginaryParser();
         // as Triangle.java has simple conditions
         // the restricted and correlated requirements will be the same
-        generateRestrictedRequirements();  
-        //generateCorrelatedRequirements();
+        //generateRestrictedRequirements();  
+        generateCorrelatedRequirements();
         testCalculate();
     }
 
